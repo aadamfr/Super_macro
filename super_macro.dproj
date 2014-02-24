@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{9968a432-8ae4-4851-8df1-55875dc6e288}</ProjectGuid>
+    <MainSource>super_macro.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>super_macro.exe</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+    <DCC_RangeChecking>True</DCC_RangeChecking>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_MapFile>3</DCC_MapFile>
+    <DCC_UnitSearchPath>D:\All for Delphi\indy9</DCC_UnitSearchPath>
+    <DCC_ResourcePath>D:\All for Delphi\indy9</DCC_ResourcePath>
+    <DCC_ObjPath>D:\All for Delphi\indy9</DCC_ObjPath>
+    <DCC_IncludePath>D:\All for Delphi\indy9</DCC_IncludePath>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+    <DCC_RangeChecking>True</DCC_RangeChecking>
+    <DCC_MapFile>3</DCC_MapFile>
+    <DCC_UnitSearchPath>D:\All for Delphi\indy9</DCC_UnitSearchPath>
+    <DCC_ResourcePath>D:\All for Delphi\indy9</DCC_ResourcePath>
+    <DCC_ObjPath>D:\All for Delphi\indy9</DCC_ObjPath>
+    <DCC_IncludePath>D:\All for Delphi\indy9</DCC_IncludePath>
+    <DCC_Define>DEBUG</DCC_Define>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">True</VersionInfo><VersionInfo Name="MajorVer">3</VersionInfo><VersionInfo Name="MinorVer">1</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">46</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1036</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription">Editeur Macro Windows</VersionInfoKeys><VersionInfoKeys Name="FileVersion">3.1.0.46</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename">Super_macro</VersionInfoKeys><VersionInfoKeys Name="ProductName">Super Macro</VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.1.3.1</VersionInfoKeys><VersionInfoKeys Name="Comments">Freeware</VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">super_macro.dpr</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="super_macro.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="adCpuUsage.pas" />
+    <DCCReference Include="ContextOfExecute.pas" />
+    <DCCReference Include="CplBrd.pas" />
+    <DCCReference Include="Debug.pas" />
+    <DCCReference Include="Erreurcompil.pas">
+      <Form>Form35</Form>
+    </DCCReference>
+    <DCCReference Include="GestionCommande.pas" />
+    <DCCReference Include="mdlfnct.pas" />
+    <DCCReference Include="ModuleSup.pas" />
+    <DCCReference Include="PDH.pas" />
+    <DCCReference Include="UBackGround.pas" />
+    <DCCReference Include="uDebugEx.pas" />
+    <DCCReference Include="Unit1.pas">
+      <Form>Form1</Form>
+    </DCCReference>
+    <DCCReference Include="Unit10.pas">
+      <Form>Form10</Form>
+    </DCCReference>
+    <DCCReference Include="Unit11.pas">
+      <Form>Form11</Form>
+    </DCCReference>
+    <DCCReference Include="Unit12.pas">
+      <Form>Form12</Form>
+    </DCCReference>
+    <DCCReference Include="Unit13.pas">
+      <Form>Form13</Form>
+    </DCCReference>
+    <DCCReference Include="Unit14.pas">
+      <Form>Form14</Form>
+    </DCCReference>
+    <DCCReference Include="Unit15.pas">
+      <Form>Form15</Form>
+    </DCCReference>
+    <DCCReference Include="Unit16.pas">
+      <Form>Form16</Form>
+    </DCCReference>
+    <DCCReference Include="Unit17.pas">
+      <Form>Form17</Form>
+    </DCCReference>
+    <DCCReference Include="Unit18.pas">
+      <Form>Form18</Form>
+    </DCCReference>
+    <DCCReference Include="Unit19.pas">
+      <Form>Form19</Form>
+    </DCCReference>
+    <DCCReference Include="Unit2.pas">
+      <Form>Form2</Form>
+    </DCCReference>
+    <DCCReference Include="Unit20.pas">
+      <Form>Form20</Form>
+    </DCCReference>
+    <DCCReference Include="Unit21.pas">
+      <Form>Form21</Form>
+    </DCCReference>
+    <DCCReference Include="Unit22.pas">
+      <Form>Form22</Form>
+    </DCCReference>
+    <DCCReference Include="Unit23.pas">
+      <Form>Form23</Form>
+    </DCCReference>
+    <DCCReference Include="Unit24.pas">
+      <Form>Form24</Form>
+    </DCCReference>
+    <DCCReference Include="Unit25.pas">
+      <Form>Form25</Form>
+    </DCCReference>
+    <DCCReference Include="Unit26.pas">
+      <Form>Form26</Form>
+    </DCCReference>
+    <DCCReference Include="Unit27.pas">
+      <Form>Form27</Form>
+    </DCCReference>
+    <DCCReference Include="Unit28.pas">
+      <Form>Form28</Form>
+    </DCCReference>
+    <DCCReference Include="Unit29.pas">
+      <Form>Form29</Form>
+    </DCCReference>
+    <DCCReference Include="Unit3.pas">
+      <Form>Form3</Form>
+    </DCCReference>
+    <DCCReference Include="Unit30.pas">
+      <Form>Form30</Form>
+    </DCCReference>
+    <DCCReference Include="Unit31.pas">
+      <Form>Form31</Form>
+    </DCCReference>
+    <DCCReference Include="Unit32.pas">
+      <Form>Form32</Form>
+    </DCCReference>
+    <DCCReference Include="Unit33.pas">
+      <Form>Form33</Form>
+    </DCCReference>
+    <DCCReference Include="Unit34.pas">
+      <Form>Form34</Form>
+    </DCCReference>
+    <DCCReference Include="Unit36.pas">
+      <Form>Form36</Form>
+    </DCCReference>
+    <DCCReference Include="Unit37.pas">
+      <Form>Form37</Form>
+    </DCCReference>
+    <DCCReference Include="Unit4.pas">
+      <Form>Form4</Form>
+    </DCCReference>
+    <DCCReference Include="Unit5.pas">
+      <Form>Form5</Form>
+    </DCCReference>
+    <DCCReference Include="Unit6.pas">
+      <Form>Form6</Form>
+    </DCCReference>
+    <DCCReference Include="Unit7.pas">
+      <Form>Form7</Form>
+    </DCCReference>
+    <DCCReference Include="Unit8.pas">
+      <Form>Form8</Form>
+    </DCCReference>
+    <DCCReference Include="Unit9.pas">
+      <Form>Form9</Form>
+    </DCCReference>
+    <DCCReference Include="VisualEffect.pas" />
+    <None Include="ModelSupport_super_macro\adCpuUsage\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\adCpuUsage\default.txvpck" />
+    <None Include="ModelSupport_super_macro\ContextOfExecute\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\ContextOfExecute\default.txvpck" />
+    <None Include="ModelSupport_super_macro\CplBrd\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\CplBrd\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Debug\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Debug\default.txvpck" />
+    <None Include="ModelSupport_super_macro\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Erreurcompil\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Erreurcompil\default.txvpck" />
+    <None Include="ModelSupport_super_macro\GestionCommande\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\GestionCommande\default.txvpck" />
+    <None Include="ModelSupport_super_macro\mdlfnct\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\mdlfnct\default.txvpck" />
+    <None Include="ModelSupport_super_macro\ModuleSup\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\ModuleSup\default.txvpck" />
+    <None Include="ModelSupport_super_macro\PDH\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\PDH\default.txvpck" />
+    <None Include="ModelSupport_super_macro\super_macro\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\super_macro\default.txvpck" />
+    <None Include="ModelSupport_super_macro\UBackGround\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\UBackGround\default.txvpck" />
+    <None Include="ModelSupport_super_macro\uDebugEx\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\uDebugEx\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit10\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit10\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit11\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit11\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit12\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit12\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit13\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit13\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit14\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit14\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit15\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit15\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit16\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit16\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit17\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit17\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit18\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit18\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit19\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit19\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit1\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit1\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit20\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit20\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit21\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit21\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit22\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit22\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit23\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit23\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit24\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit24\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit25\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit25\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit26\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit26\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit27\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit27\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit28\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit28\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit29\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit29\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit2\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit2\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit30\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit30\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit31\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit31\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit32\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit32\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit33\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit33\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit34\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit34\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit36\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit36\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit37\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit37\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit3\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit3\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit4\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit4\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit5\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit5\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit6\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit6\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit7\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit7\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit8\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit8\default.txvpck" />
+    <None Include="ModelSupport_super_macro\Unit9\default.txaPackage" />
+    <None Include="ModelSupport_super_macro\Unit9\default.txvpck" />
+    <None Include="super_macro.todo" />
+  </ItemGroup>
+</Project>
